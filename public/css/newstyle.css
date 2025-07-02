@@ -1,0 +1,729 @@
+.n-card .card-body {
+    background: #111111;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color: #111111;
+    padding: 0;
+    position: fixed;
+    width: 300px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    border-right: 1px solid#ffffff20;
+}
+
+.sidebar ul {
+    padding: 80px 0;
+}
+
+.sidebar ul li a {
+    border-radius: 0 !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.sidebar ul li a.active,
+.sidebar ul li a:hover {
+    background-color: #ffffff !important;
+    color: #000 !important;
+}
+
+.sidebar ul li {
+    margin: 0 !important;
+}
+
+main.n-main {
+    width: 100%;
+    padding: 30px 20px 30px 30px;
+    min-height: 100vh;
+    background: #111111;
+    display: flex;
+    align-items: center;
+}
+main.n-main .offset-md-4 a {
+    padding: 17px 0 0;
+    text-decoration: none;
+    color: #fff;
+}
+main.n-main .offset-md-4 a:hover {
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+}
+.des-wrap {
+    display: flex;
+    justify-content: end;
+}
+.des-wrap main.n-main {
+    width: calc(100% - 300px);
+    align-items: unset;
+}
+
+.n-navbar {
+    padding: 10px 20px 10px 300px;
+    background: #111111 !important;
+    border-bottom: 1px solid #ffffff20;
+}
+
+main.n-main .container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.n-navbar a.navbar-brand {
+    color: #fff;
+    font-size: 28px;
+}
+
+.n-navbar .container {
+    padding: 0;
+}
+
+.n-navbar ul li a {
+    color: #fff;
+    padding: 0 10px !important;
+}
+
+.n-navbar ul li a:hover {
+    color: #fff;
+}
+
+.n-navbar .nav-link.show {
+    color: #fff;
+}
+
+.n-navbar .dropdown-menu {
+    text-align: right;
+    background: #000000;
+    transition: 0.3s;
+    padding: 0;
+    border: 1px solid #ffffff20;
+}
+
+.n-navbar .dropdown-menu a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px !important;
+    display: block;
+}
+
+.n-navbar .dropdown-menu a:hover {
+    background: #000000;
+
+}
+
+.n-navbar .dropdown-menu:hover {
+    background: #000000;
+    box-shadow: 0 0 10px 0px #ffffff20;
+}
+
+.n-main-header h2 {
+    color: #fff;
+    margin: 0;
+}
+
+.n-card {
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.n-card .card-body table {
+    margin: 0;
+}
+
+.n-card .card-body .table-responsive {
+    /* height: 650px; */
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.n-card .card-body .table-responsive table th {
+    background: #000000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #747474;
+}
+
+.n-card .card-body .table-responsive table td {
+    background: #484848;
+    border: 2px solid #747474;
+    color: #fff;
+}
+
+.n-card .card-body .table-responsive table {
+    padding: 3px;
+}
+
+.n-card .card-body .table-responsive table td span {
+    background: none !important;
+    color: #fff !important;
+}
+
+.n-card .card-body .table-responsive table td .btn-group {
+    gap: 3px !important;
+    max-width: 100%;
+    width: 100%;
+}
+
+.card .form-label {
+    color: #fff;
+}
+
+.card h6 {
+    color: #fff;
+}
+
+.card button#move_right {
+    margin: 0 0 10px !important;
+}
+
+.n-main .card form label {
+    /*font-size: 30px;*/
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.n-card .card-body .table-responsive table td .btn-group a,
+.n-card .card-body .table-responsive table td button,
+.btn-sm {
+    background: #fff;
+    border: 1px solid#fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px !important;
+}
+
+.form-check-input:checked {
+    background-color: #000000;
+    border-color: #ffffff;
+}
+
+.n-card .card-body .table-responsive table td .btn-group a:hover,
+.n-card .card-body .table-responsive table td button:hover,
+.btn-sm:hover {
+    background: #484848;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+
+.n-main-header .n-header-buttons a {
+    color: #000;
+    background: #ffffff;
+    border: 1px solid#000;
+    transition: 0.3s;
+}
+
+.n-main-header .n-header-buttons a:hover {
+    color: #fff;
+    background: #00000000;
+    border: 1px solid #fff;
+}
+
+.card-body .pagination {
+    margin: 20px 0 0;
+    gap: 11px;
+}
+
+.card-body .pagination li span,
+.card-body .pagination li a {
+    border-radius: 5px !important;
+    background: #fff !important;
+    border: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.card-body .pagination li span:hover,
+.card-body .pagination li a:hover {
+    background: #484848 !important;
+    color: #fff;
+}
+
+.card-body {
+    background: #000000;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: none !important;
+
+    background: #000000;
+}
+
+.card-body label {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 15px;
+}
+
+.card-body input {
+    background: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.card-body input::placeholder {
+    color: #ffffff50;
+}
+
+.card-body input:focus {
+    background: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+.card .card-header div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card button {
+    margin: 0 !important;
+}
+
+
+.card button.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+.accordion-button::after{
+    filter: brightness(0) invert(1);
+}
+.n-main button:hover::after {
+    filter: brightness(0) saturate(100%);
+}
+.des-wrap .text-muted {
+    color: #fff !important;
+}
+
+.card .accordion-body form {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card .accordion-body form button:hover {
+    color: #000 !important;
+}
+
+.n-main #collapseLogic #logic-form button {
+    width: auto;
+    border-radius: 5px;
+}
+
+.n-card .card-body .table-responsive table td a.btn,
+.n-card .card-body .table-responsive button {
+    width: 100%;
+    padding: 0;
+    max-width: 100% !important;
+    justify-content: center;
+    margin: 0 0;
+    font-size: 13px;
+    padding: 0 3px;
+}
+
+.card-body button {
+    margin: 10px 0 0;
+    background: #fff;
+    color: #000000;
+    padding: 11px 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid#000;
+    color: #000 !important;
+}
+
+.card-body button:hover {
+    background: #6d757d;
+}
+
+.card-body button:hover {
+    border: 1px solid#fff;
+}
+
+.card-body .form-blk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+    border: 1px solid#ffffff20;
+    min-height: 350px;
+    padding: 30px 30px;
+    gap: 40px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.add_Step .card-body {
+    border: 1px solid #fff;
+    margin: 10px 0 0;
+}
+
+.card-body .form-blk label {
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+}
+
+.card-body .form-blk input {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #ff000000;
+}
+
+.card-body .form-blk button {
+    background: #111111;
+    padding: 10px 20px;
+    border: 1px solid #111111;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.card-body .form-blk button:hover {
+    border: 1px solid#fff;
+    background: #fff;
+    color: #111111;
+}
+
+.card-body .form-blk input::placeholder {
+    color: #707070;
+}
+
+.card button:hover {
+    color: #fff !important;
+}
+
+.card .card-header {
+    background: #6d757d !important;
+    border-radius: 6px;
+}
+
+.n-main button {
+    background: #747474 !important;
+    color: #fff !important;
+    padding: 10px 20px;
+    width: max-content;
+    border: 1px solid #747474;
+}
+
+
+
+
+.n-main button:hover {
+    background: #ffff !important;
+    color: #000 !important;
+    border: 1px solid #fff;
+}
+
+.n-main .accordion-item button,
+.n-main .accordion-item select {
+    width: 100%;
+    border: none !important;
+    border-radius: .0;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.n-main .accordion-item .accordion-body {
+    background: #000;
+    border: 1px solid#fff;
+    border-radius: 5px;
+}
+
+button.btn-custom {
+    background-color: #343a40 !important;
+    color: white !important;
+    border: 2px solid #495057 !important;
+    padding: 12px 20px !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease !important;
+}
+
+button.btn-custom:hover {
+    background-color: #495057 !important;
+    border-color: #adb5bd !important;
+    color: #f8f9fa !important;
+}
+button.custom-toggle {
+    background-color: rgb(53, 53, 53) !important;
+    color: #f8f9fa !important;
+    border: 1px solid #ced4da !important;
+    padding: 6px 12px !important;
+    font-size: 1rem !important;
+    border-radius: 4px !important;
+    transition: background-color 0.3s, color 0.3s !important;
+}
+
+/* Add hover, focus, and active states */
+button.custom-toggle:hover {
+    background-color: #495057 !important;
+    color: #f8f9fa !important;
+}
+
+button.custom-toggle:focus {
+    outline: none !important;
+}
+
+button.custom-toggle:active {
+    transform: translateY(1px) !important;
+}
+
+
+
+.accordion-item select {
+    background: #747474;
+    color: #fff;
+    border-radius: 5px !important;
+    padding: 10px 20px;
+}
+
+.accordion-item select {
+    background: #000;
+    outline: 1px solid #fff !important;
+}
+
+.n-main .removeField {
+    width: max-content !important;
+    border-radius: 5px !important;
+}
+
+.n-main .accordion-item .accordion-body .form-check .form-check-input {
+    padding: 0 !important;
+    margin: 0 0 0;
+    cursor: pointer;
+    accent-color: #fff !important;
+}
+.login-check .form-check .form-check-input {
+    padding: 9px 10px;
+}
+/***/
+.login-check .form-check {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.login-check .form-check-input {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 6px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.login-check .form-check-input:checked::after {
+    content: '✔';
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    top: -3px;
+    left: -2px;
+}
+.login-check .form-check-label {
+    font-size: 16px;
+    color: #333;
+}
+.login-check .form-check label.form-check-label {
+    margin-bottom: 0;
+}
+/**/
+.sumit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.sumit-btn button {
+    width: auto !important;
+    border-radius: 10px !important;
+}
+.n-main .accordion-item .accordion-body .form-check {
+    padding: 0;
+    margin: -10px 0 0;
+}
+
+.n-main .accordion-item .accordion-body .form-check .form-check-input:checked {
+    background: #fff !important;
+}
+
+.n-main .modal-content {
+    background: #000;
+    border: 1px solid#ffffff20;
+}
+
+.n-main .modal-content .modal-header {
+    border-bottom: 1px solid#ffffff20;
+}
+
+.n-main .modal-content .modal-header h5 {
+    color: #fff;
+}
+
+.n-main .modal-content .modal-header .btn-close {
+    position: relative;
+    background: none !important;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    border: none !important;
+}
+
+.n-main .modal-content .modal-header .btn-close::before {
+    content: "X";
+    color: #fff !important;
+    font-size: 20px;
+    line-height: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+
+.n-main .modal-content .card-text>span,
+.n-main .modal-content small {
+    color: #fff !important;
+}
+
+.n-main .modal-content .card-text span.bg-primary {
+    background: #ffffff60 !important;
+    border-radius: 2px;
+}
+
+.n-main .modal-body .card-body {
+    border: 1px solid#ffffff20;
+}
+
+.n-main .modal-body .card-body:hover {
+    border: 1px solid#ffffff00;
+}
+
+
+.n-main .modal-body .card.automation-type-card:hover {
+    box-shadow: 0 0 9px 1px #ffffff20 !important;
+    cursor: pointer;
+    border-radius: 13px;
+}
+
+.n-main #collapseLogic #logic-container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.n-main #collapseLogic .automation-item span.badge.bg-primary {
+    background: none !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.n-main #collapseLogic .automation-item input,
+.n-main #collapseLogic .automation-item select {
+    border: none;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    padding: 3px 0;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+.n-main #collapseLogic .automation-item span {
+    color: #fff;
+}
+
+.n-main #collapseLogic .automation-item button.remove-automation {
+    background: none !important;
+    border: 1px solid !important;
+    border-radius: 50px;
+    display: block;
+    padding: 4px 10px;
+    width: auto;
+    margin: 0 0 0 20px !important;
+}
+
+.n-main #collapseLogic .automation-item button.remove-automation:hover {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+label, h2 {
+    color: #fff;
+}
+
+.automation-item select option {
+    background: black;
+}
+
+
+.pagination-outer-container nav {
+    width: 100%;
+}
+
+.active>.page-link, .page-link.active {
+  
+    background-color: #484848;
+    border-color: #484848;
+}
+
+
+.page-link:hover, .page-link {
+  
+    color: #484848;
+}
+
+
+.page-item.active:hover span{
+  
+    color: #ffffff;
+}
+
+
+
+
+.color-options-container .color-img-dropzone {
+    width: -webkit-fill-available;
+}
+
+.dropzone .dz-preview .dz-image img {
+    height: auto;
+    width: 100%;
+}
+
+.dropzone .dz-preview .dz-image {
+    width: 300px;
+    height: 150px;
+}
