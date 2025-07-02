@@ -55,7 +55,6 @@ The Logistic Spare Part Manager enables you to efficiently manage car makes, mod
 - **Individual Enthusiasts:** Even if you manage a small collection, this system helps you keep track of parts, prices, and vehicle compatibility.
 
 ## Project Highlights
-------------------------
 The Logistic Spare Part Manager is built with flexibility, reliability, and ease of use in mind. Its modular design allows you to adapt it to your specific needs, whether you are handling a small inventory or a large, complex catalog. With robust data management, automated communication, and a welcoming interface, this project is ready to support your business or personal needs.
 
 We hope you find this project helpful, intuitive, and enjoyable to use. If you have any questions, suggestions, or need assistance, please feel free to reach out. Thank you for considering the Logistic Spare Part Manager as your trusted solution for spare part logistics!
